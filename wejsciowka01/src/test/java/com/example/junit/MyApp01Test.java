@@ -28,9 +28,10 @@ public class MyApp01Test {
 	public void addingCheck() {
 		
 		Train pociag = new Train("Cargo", true, 3);
+		Train pociag2 = new Train("PKP", false, 1);
 		List<Train> trains = new ArrayList<Train>();
 		trains.add(pociag);
-		
+		trains.add(pociag2);
 		
 		expect(mock.addTrain(pociag)).andReturn(true).atLeastOnce();
 				
