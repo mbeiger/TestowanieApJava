@@ -1,0 +1,4 @@
+Given a trainmanager
+When add 1 train
+Then getCount should return 1
+
