@@ -116,12 +116,11 @@ public class CarManagerTest {
 		
 		Car car1 = new Car(MODEL_1, ROK_1);
 		Car car2 = new Car(MODEL_2, ROK_2);
-		Car car3 = new Car(MODEL_3, ROK_3);
 		
 		carManager.clearCars();
 		assertEquals(1, carManager.addCar(car1));
 		assertEquals(1, carManager.addCar(car2));
-		assertEquals(1, carManager.addCar(car3));
+		assertEquals(1, carManager.addCar(car1));
 		
 		
 		assertEquals(2, carManager.getCarsByModel(MODEL_1).size());
