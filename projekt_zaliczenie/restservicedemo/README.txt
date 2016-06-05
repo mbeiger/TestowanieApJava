@@ -13,13 +13,11 @@
 
 5. Uruchomić przeglądarkę (lub innego klienta http) i sprawdzić czy serwis działa:
 http://localhost:8080/restservicedemo/api/person/test
+http://localhost:8080/restservicedemo/api/car/test
 Spodziewany rezultat: 
 "REST Service is running"
 
-6. W terminalu z klientem bazy danych po wykonaniu View->Refresh Tree powinna pojawić się tabela PUBLIC.PERSON
-Dodać klienta poleceniem INSERT (prawy klik na tabeli daje szablon do INSERTa), zapamiętać jego ID
-
-7. Z przeglądarki (lub innego klienta http) 
-http://localhost:8080/restservicedemo/api/person/{ID}
+6. Z przeglądarki (lub innego klienta http) 
+http://localhost:8080/restservicedemo/api/person/all
 powinniśmy otrzymać Osobę w formacie JSON, taką jak dodaliśmy do bazy
 
