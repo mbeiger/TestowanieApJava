@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <CAR MODEL="Audi" YOP="1972" OWNER_ID="1"/>
+  <CAR MODEL="BMW" YOP="1972" OWNER_ID="2"/>
+  <CAR MODEL="Jeep" YOP="1975" OWNER_ID="3"/>
+  <CAR MODEL="Renault" YOP="1975" OWNER_ID="4"/>
+  <CAR MODEL="Jeep" YOP="1975"/>
+</dataset>
+
